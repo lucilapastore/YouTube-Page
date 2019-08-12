@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+  
 body{
   margin:0;
   background-color: #F1F1F1;
@@ -62,4 +64,44 @@ padding: 0%;
 .box-video{
   width: 640px;
   position: relative;
+}
+.avatar img {
+  height: 48px;
+  width: 48px;
+  background-color: transparent;
+  font-size: 13px;
+  display: inline-block;
+  vertical-align: middle;
+  outline: invert none medium;
+  border-width: 0px;
+  border-style: none;
+  margin: 0px;
+  padding: 0px;
+  border-color: white;
+}
+.red-button {
+  background-color: red;
+  font-family:'Roboto Mono', monospace; 
+  font-size: 14px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  padding: 10px 16px;
+  float: right;
+}
+.views {
+  background-color: transparent;
+    line-height: 24px;
+    text-align: right;
+    font-size: 19px;
+    color: rgb(102, 102, 102);
+    white-space: nowrap;
+    border-width: 0px;
+    border-style: none;
+    margin: 0px 0px 2px;
+    padding: 0px;
+    border-color: white;
+    display: inline-block;
+    
 }
