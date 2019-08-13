@@ -11,6 +11,36 @@ aside{
   background-color: red;
   width:384px;
 }
+.upnextvideo {
+  display: flex;
+  flex-direction: row;
+  background-color: #FFF;
+  padding: 10px;
+}
+.upnextvideo hr {
+  color: black;
+  border-style: inset; 
+  border-width: 1px; 
+  margin: 0.5em auto;
+  margin-left: 0;
+  margin-right: 0;
+}
+.videoimage{
+  width: 50%;
+}
+.videoimage img {
+  width: 100%;
+}
+.videocontent {
+  width: 50%;
+  font-weight: bold;
+  padding: 5px; 
+}
+.videocontent span {
+  font-weight: normal;
+  color: grey;
+  padding: 5px; 
+}
 .float-right{
   float: right;
 }
