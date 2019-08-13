@@ -8,8 +8,10 @@ section{
   max-width: 640px;
 }
 aside{
-  background-color: red;
+  background-color: transparent;
   width:384px;
+  padding: 10px;
+  box-sizing: border-box;
 }
 .upnextvideo {
   display: flex;
