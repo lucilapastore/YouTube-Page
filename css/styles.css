@@ -19,6 +19,11 @@ h1{
   margin: 0%;
   padding: 0%;
 }
+
+:root {
+  --font-family-primary: 'Roboto Mono', monospace;
+}
+
 .float-right{
   float: right;
 }
@@ -98,6 +103,8 @@ section{
   padding: 15px;
   position: relative;
   background-color: #FFF;
+  display: flex;
+  flex-direction: column;
   box-sizing: border-box;
 }
 .box-video{
@@ -119,10 +126,11 @@ section{
   margin: 0px;
   padding: 0px;
   border-color: white;
+  border-radius: 50%;
 }
 .red-button {
   background-color: red;
-  font-family:'Roboto Mono', monospace;
+  font-family:var(--font-family-primary);
   font-size: 14px;
   color: white;
   border: none;
@@ -131,19 +139,38 @@ section{
   padding: 10px 16px;
   float: right;
 }
-.views {
+
+.like-button{
+  background-image:url('https://archive.fo/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
   background-color: transparent;
-    line-height: 24px;
-    text-align: right;
-    font-size: 19px;
-    color: rgb(102, 102, 102);
-    white-space: nowrap;
-    border-width: 0px;
-    border-style: none;
-    margin: 0px 0px 2px;
-    padding: 0px;
-    border-color: white;
-    display: inline-block;
+  width:20px;
+  height:20px;
+  display:inline-block;
+  vertical-align:middle;
+  margin-right:6px;
+  background-position: 0px -867px;
+  background-repeat: no-repeat;
+}
+.dislike-button{
+  background-image:url('https://archive.fo/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');background-color: transparent; width:20px;height:20px;padding-bottom:1px;display:inline-block;vertical-align:middle;margin-right:6px;background-position: -174px -804px; background-repeat: no-repeat;
+}
+.three-dots{
+  display:inline-block;vertical-align:middle;margin-right:6px;background-image:url('https://archive.fo/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');background-color: transparent; width:20px;height:20px;background-position: -154px -860px; background-repeat: no-repeat;
+}
+.views {
+  width: 100%;
+  background-color: transparent;
+  line-height: 24px;
+  text-align: right;
+  font-size: 19px;
+  color: rgb(102, 102, 102);
+  white-space: nowrap;
+  border-width: 0px;
+  border-style: none;
+  margin: 0px 0px 2px;
+  padding: 0px;
+  border-color: white;
+  display: inline-block;
 
 }
 
@@ -160,25 +187,30 @@ aside{
 .upnextvideo {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   background-color: #FFF;
   padding: 10px;
 }
-.upnextvideo hr {
-  color: black;
+.line hr {
+  color: gray;
   border-style: inset;
-  border-width: 1px;
+  border-width: .5px;
   margin: 0.5em auto;
   margin-left: 0;
   margin-right: 0;
 }
+.line{
+  width: 100%;
+  height: 20px;
+}
 .videoimage{
-  width: 50%;
+  width: 45%;
 }
 .videoimage img {
   width: 100%;
 }
 .videocontent {
-  width: 50%;
+  width: 45%;
   font-weight: bold;
   padding: 5px;
 }
