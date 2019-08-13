@@ -109,7 +109,14 @@ h1{
 }
 
 .menu-button{
-  font-size:100%;background-image:url('https://archive.fo/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');background-color: transparent; width:16px;height:16px;display:inline-block;vertical-align:middle;background-position: -198px -862px; background-repeat: no-repeat; border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white;
+  font-size:100%;
+  background-image:url('https://archive.fo/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+  background-color: transparent;
+  width:16px;height:16px;
+  display:inline-block;vertical-align:middle;
+  background-position: -198px -862px;
+  background-repeat: no-repeat; border-width: 0px;
+  margin-top:5px;
 }
 .search-input{
   text-align: left;
@@ -132,14 +139,10 @@ h1{
 .sing-in{
   background-color:#167AC6;
   color:white;
-  border-top-left-radius: 2px 2px;
-  border-top-right-radius: 2px 2px;
-  border-bottom-right-radius: 2px 2px;
-  border-bottom-left-radius: 2px 2px;
+  border-radius: 2px;
   border-width: 1px;
   border-style: solid;
-  margin: 0px;
-  padding:10px;
+  padding:5px 10px;
   box-shadow: rgba(0, 0, 0, 0.046875) 0px 1px 0px;
   cursor:pointer;
 }
