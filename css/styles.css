@@ -8,6 +8,7 @@ section{
   max-width: 640px;
 }
 aside{
+  background-color: red;
   width:384px;
 }
 .float-right{
@@ -16,10 +17,20 @@ aside{
 .float-left{
   float:left;
 }
+.block{
+  position: relative;
+  width: 100%;
+}
 .container{
   max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+.main-content{
+  display:flex;
+  flex-direction: row;
 }
 .header{
   margin:0;
