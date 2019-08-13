@@ -42,6 +42,24 @@ h1{
   display: flex;
   flex-direction: column;
 }
+.icon-search{
+  font-size: 100%;
+  display: block;
+  opacity: 0.6;
+  text-indent: -10000px;
+  background-image: url('https://archive.fo/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+  background-color: transparent;
+  width: 15px;
+  height: 15px;
+  box-shadow: none;
+  background-position: -28px -66px;
+  background-repeat: no-repeat;
+  border-width: medium;
+  border-style: none;
+  margin: 0px 25px;
+  padding: 0px;
+  border-color: white;
+}
 
 /*-------------*/
 /* 2 Header */
@@ -51,9 +69,22 @@ h1{
   width: 100%;
   height:50px;
   background-color:white;
+  padding:10px;
+  box-sizing: border-box;
 }
 .header-item{
   float: left;
+  display: flex;
+  margin-left:20px;
+}
+.search-bar{
+  border: gray solid 1px;
+  border-radius: 3px;
+  width: 500px;
+}
+.icon-button{
+  width: 20%;
+  border: none;
 }
 
 .logo{
@@ -70,16 +101,34 @@ h1{
   margin: 0px;
   padding: 0px;
   border-color: white;
-  cursor: pointer; 
+  cursor: pointer;
 }
 .upload-button{
   font-size:100%;background-image:url('https://archive.fo/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');background-color: transparent; width:24px;height:24px;display:inline-block;vertical-align:middle;background-position: -125px -314px; background-repeat: no-repeat; border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white;
+  margin-right: 10px;
 }
 
 .menu-button{
-  font-size:100%;background-image:url('https://archive.fo/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');background-color: transparent; width:16px;height:16px;display:inline-block;vertical-align:middle;background-position: -198px -862px; background-repeat: no-repeat; border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white; 
+  font-size:100%;background-image:url('https://archive.fo/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');background-color: transparent; width:16px;height:16px;display:inline-block;vertical-align:middle;background-position: -198px -862px; background-repeat: no-repeat; border-width: 0px; border-style: none; margin: 0px; padding: 0px; border-color: white;
 }
-
+.search-input{
+  text-align: left;
+  font: normal normal normal 12px/normal 'YouTube Noto', Roboto, arial, sans-serif;
+  font-size: 12px;
+  font-family: "YouTube Noto", Roboto, arial, sans-serif;
+  font-family: 'YouTube Noto', Roboto, arial, sans-serif;
+  background-color: transparent;
+  font-size: 16px;
+  height: 27px;
+  width: 80%;
+  box-sizing: border-box;
+  outline: invert none medium;
+  border-width: 0px;
+  border-style: none;
+  margin: 0px;
+  padding: 2px 6px;
+  border-color: white;
+}
 .sing-in{
   background-color:#167AC6;
   color:white;
@@ -151,7 +200,7 @@ section{
   border-radius: 2px;
   padding: 10px 16px;
   float: right;
-  cursor: pointer; 
+  cursor: pointer;
 }
 
 .like-button{
@@ -164,10 +213,10 @@ section{
   margin-right:6px;
   background-position: 0px -867px;
   background-repeat: no-repeat;
-  cursor: pointer; 
+  cursor: pointer;
 }
 .dislike-button{
-  background-image:url('https://archive.fo/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');background-color: transparent; width:20px;height:20px;padding-bottom:1px;display:inline-block;vertical-align:middle;margin-right:6px;background-position: -174px -804px; background-repeat: no-repeat;cursor: pointer; 
+  background-image:url('https://archive.fo/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');background-color: transparent; width:20px;height:20px;padding-bottom:1px;display:inline-block;vertical-align:middle;margin-right:6px;background-position: -174px -804px; background-repeat: no-repeat;cursor: pointer;
 }
 .three-dots{
   display:inline-block;vertical-align:middle;margin-right:6px;background-image:url('https://archive.fo/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');background-color: transparent; width:20px;height:20px;background-position: -154px -860px; background-repeat: no-repeat;
@@ -209,6 +258,7 @@ aside{
   background-color: transparent;
   width:384px;
   padding: 10px;
+  padding-right: 0px;
   box-sizing: border-box;
 }
 .upnextvideo {
