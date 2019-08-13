@@ -1,47 +1,23 @@
+/* 1 General */
+/* 2 Header */
+/* 3 Content */
+/* 4 Sidebar */
+/* 5 Footer */
+
+/*-------------*/
+/* 1 General */
+/*-------------*/
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
 
 body{
   margin:0;
   background-color: #F1F1F1;
 }
-section{
-  max-width: 640px;
-}
-aside{
+h1{
+  font-size: 25px;
   background-color: transparent;
-  width:384px;
-  padding: 10px;
-  box-sizing: border-box;
-}
-.upnextvideo {
-  display: flex;
-  flex-direction: row;
-  background-color: #FFF;
-  padding: 10px;
-}
-.upnextvideo hr {
-  color: black;
-  border-style: inset; 
-  border-width: 1px; 
-  margin: 0.5em auto;
-  margin-left: 0;
-  margin-right: 0;
-}
-.videoimage{
-  width: 50%;
-}
-.videoimage img {
-  width: 100%;
-}
-.videocontent {
-  width: 50%;
-  font-weight: bold;
-  padding: 5px; 
-}
-.videocontent span {
-  font-weight: normal;
-  color: grey;
-  padding: 5px; 
+  margin: 0%;
+  padding: 0%;
 }
 .float-right{
   float: right;
@@ -49,6 +25,7 @@ aside{
 .float-left{
   float:left;
 }
+
 .block{
   position: relative;
   width: 100%;
@@ -60,10 +37,10 @@ aside{
   display: flex;
   flex-direction: column;
 }
-.main-content{
-  display:flex;
-  flex-direction: row;
-}
+
+/*-------------*/
+/* 2 Header */
+/*-------------*/
 .header{
   margin:0;
   width: 100%;
@@ -73,6 +50,7 @@ aside{
 .header-item{
   float: left;
 }
+
 .logo{
   max-height: 50px;
 }
@@ -83,6 +61,7 @@ aside{
 .menu-button{
   max-height: 40px;
 }
+
 .sing-in{
   background-color:#167AC6;
   color:white;
@@ -97,12 +76,20 @@ aside{
   box-shadow: rgba(0, 0, 0, 0.046875) 0px 1px 0px;
   cursor:pointer;
 }
-h1{
-font-size: 25px;
-background-color: transparent;
-margin: 0%;
-padding: 0%;
+
+/*-------------*/
+/* 3 Content */
+/*-------------*/
+
+section{
+  max-width: 640px;
 }
+
+.main-content{
+  display:flex;
+  flex-direction: row;
+}
+
 .box {
   width: 100%;
   font-size: 13px;
@@ -117,6 +104,7 @@ padding: 0%;
   width: 640px;
   position: relative;
 }
+
 
 .avatar img {
   height: 48px;
@@ -158,3 +146,48 @@ padding: 0%;
     display: inline-block;
 
 }
+
+
+/*-------------*/
+/* 4 Sidebar */
+/*-------------*/
+aside{
+  background-color: transparent;
+  width:384px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.upnextvideo {
+  display: flex;
+  flex-direction: row;
+  background-color: #FFF;
+  padding: 10px;
+}
+.upnextvideo hr {
+  color: black;
+  border-style: inset;
+  border-width: 1px;
+  margin: 0.5em auto;
+  margin-left: 0;
+  margin-right: 0;
+}
+.videoimage{
+  width: 50%;
+}
+.videoimage img {
+  width: 100%;
+}
+.videocontent {
+  width: 50%;
+  font-weight: bold;
+  padding: 5px;
+}
+.videocontent span {
+  font-weight: normal;
+  color: grey;
+  padding: 5px;
+}
+
+/*-------------*/
+/* 5 Footer */
+/*-------------*/
