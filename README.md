@@ -8,5 +8,5 @@ HTML5
 CSS3
 
 # Authors
-Luis Preza https://github.com/men32z
+Luis Preza https://github.com/men32z  <br>
 Lucila Pastore https://github.com/lucilapastore
